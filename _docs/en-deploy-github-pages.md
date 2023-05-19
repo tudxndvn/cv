@@ -59,7 +59,7 @@ jobs:
 
 ```yml
 env:
-  TYPE_OF_APP: resume #or resume
+  TYPE_OF_APP: blog #or resume
 ```
 
 Set app what you want to deploy, which `blog` or `resume`
