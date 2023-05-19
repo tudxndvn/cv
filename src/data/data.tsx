@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Tu Dao Xuan\'s Resume',
+  description: "Tu Dao Xuan\\'s Resume site built nextjs and taiwind",
 };
 
 /**
@@ -69,19 +69,20 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Tu Dao Xuan.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Ha Noi based <strong className="text-stone-100">Front-end Developer</strong>,
+        <br/>
+        I’ve been working as a web developer for a few years now, 
+        and I’m passionate about everything that goes into making websites work well and look beautiful. 
+        <br/>
+        The web is my passion because it’s where I can find the most exciting projects to work on.
+         It’s also where I get to express my creativity in ways that are hard to find elsewhere.
+
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+      
     </>
   ),
   actions: [
@@ -104,16 +105,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hey there! 👋. I'm Tu Dao, a Front End Developer based in Ha Noi, that loves to code and build products with a delightful user experience.
+  
+  I love working in between product, engineering and developer experience. Some things that make me excited are JavaScript, Open Source, CI & CD systems, simplicity, automating things and building meaningful user-centric products.
+    
+  Outside of work, I'm obsessed with sports, doing open source and travelling with my family.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Ha Noi, VN', Icon: MapIcon},
+    {label: 'Age', text: '31', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Viet Nam', Icon: FlagIcon},
+    {label: 'Interests', text: 'AOE , Football, Fishing', Icon: SparklesIcon},
+    {label: 'Study', text: 'HUST', Icon: AcademicCapIcon},
   ],
 };
 
@@ -126,16 +128,9 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 7,
       },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+  
     ],
   },
   {
@@ -146,12 +141,24 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'HTML & CSS',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Typescript',
+        level: 9,
+      },
+      {
+        name: 'Jest',
+        level: 8,
+      }, 
+      {
+        name: 'Tailwindcss',
+        level: 8,
+      },
+      {
+        name: 'Monorepo',
+        level: 8,
       },
     ],
   },
@@ -160,15 +167,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
+        name: 'PHP',
+        level: 7,
       },
     ],
   },
@@ -177,15 +180,20 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Tracking Tool',
+    skills: [
+      {
+        name: 'GA',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'Hotjar',
+        level: 8,
       },
     ],
   },
@@ -268,39 +276,93 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2010 - May 2015',
+    location: 'HUST',
+    title: 'Information Technology - K55',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2012 - September 2014',
+    location: 'Ha Noi Aptech',
+    title: 'Computer Programmer - A1403M ',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'March 2019 - Present',
+    location: 'Xpon.ai',
+    title: 'Front-end developer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      <p> 
+          I'm working on outsource department, I was released ~ 2x projects on this time. 
+          <br/>
+          <br/>
+          <strong>Wordpress: ~ 10 sites: </strong>
+          <br/>
+            Teargas: <a href='https://teargas.amnesty.org/'>https://teargas.amnesty.org/</a> 
+            <br/>
+            Iran-shutdown: <a href='https://iran-shutdown.amnesty.org/' >https://iran-shutdown.amnesty.org/ </a>
+            <br/>
+            Raqqa: <a href='https://raqqa.amnesty.org/'>https://raqqa.amnesty.org/</a> 
+            <br/>
+            Strongandbendy: <a href='https://strongandbendy.co.uk/'>https://strongandbendy.co.uk/</a> 
+            <br/>
+            Seerave: <a href='https://seerave.org/ '> https://seerave.org/ </a>
+            <br/>
+            .....
+            <br/>
+          <strong>Drupal: 1 big sites </strong>
+          <br/>
+            Iec: <a href='https://iec.ch/'>https://iec.ch/</a> 
+            <br/>
+          <strong>Yii: humhub opensource: </strong>
+          <br/>
+            Craftworld: <a href='https://craftworld.com/'>https://craftworld.com/</a>   
+            <br/>
+          <strong>Nextjs: ~10 sites</strong>
+          <br/>
+            Acadsbsg: <a href='https://www.acadsbsg.com.au/'>https://www.acadsbsg.com.au/</a> : Using nextjs and handontable for building software
+            <br/>
+            Darkreading: <a href='https://www.darkreading.com/'>https://www.darkreading.com/</a>
+            <br/>
+            informationweek: <a href='https://www.informationweek.com/'>https://www.informationweek.com/</a>
+            <br/>
+            gamedeveloper: <a href='https://gamedeveloper.com/'>https://gamedeveloper.com/</a>
+            <br/>
+            streamly: <a href='https://streamly.video/'>https://streamly.video/</a>
+            <br/>
+            quantumbusinessnews: <a href='https://www.quantumbusinessnews.com/'>https://www.quantumbusinessnews.com/</a>
+            <br/>
+            ....
+            <br/>
+          <strong>ReactNative</strong>
+          <br/>
+          
+          crewstudio <a href='https://apps.apple.com/vn/app/crewstudio/id1398899998'>https://apps.apple.com/vn/app/crewstudio/id1398899998</a>
+          
+          
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2017 - February 2019',
+    location: 'Onesoft inc',
+    title: 'IOS Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+          Create livestream app base on Webrtc for ios
+      </p>
+    ),
+  },
+  {
+    date: 'March 2015 - February 2017',
+    location: 'Framgia Inc',
+    title: 'PHP Developer',
+    content: (
+      <p>
+        In this time, i am working on Laravel 5.x and training freshers.
       </p>
     ),
   },
@@ -335,28 +397,23 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Contact.',
+  description: 'Please contact to me if you want to more informations',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'unipuzz@gmail.com',
+      href: 'mailto:unipuzz@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Ha Noi, Viet Nam',
+      href: 'https://www.google.ca/maps/place/%C4%90%E1%BA%A1i+M%E1%BB%97,+Nam+T%E1%BB%AB+Li%C3%AAm,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@20.9979414,105.7424851,14z/data=!3m1!4b1!4m6!3m5!1s0x3134536a55039567:0xc2711b127c475a95!8m2!3d20.9898009!4d105.7615252!16s%2Fg%2F1hb_gp2_k',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'tudxndvn',
+      href: 'https://github.com/tudxndvn',
     },
   ],
 };
@@ -365,9 +422,5 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tudxndvn'},
 ];
