@@ -17,7 +17,7 @@ on:
     branches: main
 
 env:
-  TYPE_OF_APP: blog
+  TYPE_OF_APP: resume
 
 jobs:
   build:
@@ -59,7 +59,7 @@ jobs:
 
 ```yml
 env:
-  TYPE_OF_APP: blog #or resume
+  TYPE_OF_APP: resume #or resume
 ```
 
 Set app what you want to deploy, which `blog` or `resume`
