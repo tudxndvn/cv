@@ -1,169 +1,84 @@
-# Comet-land
+# React JS Resume Website Template
 
-[![CodeQL](https://github.com/hyesungoh/comet-land/actions/workflows/codeql.yml/badge.svg)](https://github.com/hyesungoh/comet-land/actions/workflows/codeql.yml) [![Continious Intergration](https://github.com/hyesungoh/comet-land/actions/workflows/CI.yml/badge.svg)](https://github.com/hyesungoh/comet-land/actions/workflows/CI.yml) [![codecov](https://codecov.io/gh/hyesungoh/comet-land/branch/main/graph/badge.svg?token=TA7LT3RQ1P)](https://codecov.io/gh/hyesungoh/comet-land) [![blog](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/yiddyz&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/yiddyz/runs) [![resume](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/inc4yo&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/inc4yo/runs)
+![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
-Blog and Resume template with turborepo
+<div align="center">
 
-한국어 문서는 [다음 링크](https://github.com/hyesungoh/hyesungoh-land/tree/main/_docs/ko-readme.md)에서 확인하실 수 있습니다.
+<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
 
-![comet-land-blog](https://user-images.githubusercontent.com/26461307/159371599-95b2acd5-e5eb-482c-9ead-d8f601f034b5.png)
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
 
-<h2 align="center">
+<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
 
-[`BLOG DEMO ☄️`](https://comet-land-blog.vercel.app/)
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
 
-</h2>
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
 
-![comet-land-resume](https://user-images.githubusercontent.com/26461307/160653172-c56a3b64-dfa9-4708-bf95-fca2fff47964.png)
+<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
 
-<h2 align="center">
+## React based template for software developer-focused resume websites
 
-[`RESUME DEMO 💫`](https://comet-land-resume.vercel.app/)
+</div>
 
-</h2>
+### View a [live demo here.](https://reactresume.com)
 
-![postGif](https://user-images.githubusercontent.com/26461307/159372336-e42c1a9c-9915-4d05-9e51-4882d681dc80.gif)
+#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
 
-- 👔 Code highlight with line-highlight, line-numbers
-- 🎨 Design with [NextUI](https://nextui.org/)
-- 🍽 Table of contents
-- 🎩 Dark mode
+### 🎉 Version 2 is here! New features:
+1. Completely rebuilt with React and full typescript support
+2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
+3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
+4. Re-organized data population file for customizing site.
+5. Significant improvement/modernization of all site sections
+ 
+**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
 
-![kbarGif](https://user-images.githubusercontent.com/26461307/159372344-d628b817-d7f5-4322-813e-3468a62e79d6.gif)
+## Description
 
-- ⌨️ Search with [KBar](https://kbar.vercel.app/)
-- 🔨 Configurable
-- 🔊 [Utterances](https://utteranc.es/) Comment
-- 🔭 Google Analytics
-- 🔥 Hotjar
-- 🏄 Lighthouse score
+This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
 
-![blog lighthouse score](https://user-images.githubusercontent.com/26461307/161536154-b85caf9f-0f73-4224-a1e7-540723916ff7.gif)
+## Make it Your Own!
 
-## Resume Feature
+### 1. Make sure you have what you need
 
-- 🎨 Design with [NextUI](https://nextui.org/)
-- 🎩 Dark mode
-- ⌨️ Contact with [KBar](https://kbar.vercel.app/)
-- 🔨 Configurable
-- 🔭 Google Analytics
-- 🔥 Hotjar
-- 🏄 Lighthouse score
+To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
 
-![resume lighthouse score](https://user-images.githubusercontent.com/26461307/161536162-63278484-ca52-42ed-89d4-951cd31e42c1.gif)
+### 2. Fork and download this repo (and star if you like!)
 
-## How to start
+Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
 
-`comet-land` has own generate package [`create-comet-land`](https://github.com/hyesungoh/create-comet-land)
+### 3. Install dependencies and run
 
-```bash
-npx create-comet-land
-# or
-yarn create comet-land
-```
+Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
 
-> Or using Fork or clone this repo
+### 4. Customize the data to make it your own
 
-1. Install dependencies
+All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
 
-```bash
-yarn
-```
+### 5. Hook up contact form
+Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
 
-2. Start Turbo !
+### 6. Make any other changes you like
 
-```bash
-yarn turbo run dev
-# or just
-yarn dev
-```
+Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
 
-4. Now you can see blog at `localhost:3000`, resume at `localhost:3001`
+### 7. Deploy to Vercel and enjoy your new Resume Website
 
-## How to configuration
+Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
 
-Please see `packages/core/constants` directory.
+## Project Created & Maintained By
 
-and you can reconfigure at that directory's variable
+### Tim Baker
 
-- Analytics directory
-  - GA ID
-  - Hotjar ID
-- Colors directory
-  - color schema
-- General directory
-  - author image
-  - default open-graph image
-  - favicon
-- SocialMedia directory
-  - github
-  - instagram
-  - facebook
-  - linkedin
-  - twitter
+<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-and please check `apps/blog/_config/index.json` and `apps/resume/_config/index.json`.
+[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
 
-This files are placing each app's configuration variable.
+## Stargazers
 
-## How to use it
+[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
 
-please read following link.
+## Forkers
 
-- [how to add blog post](https://github.com/hyesungoh/hyesungoh-land/tree/main/_docs/en-blog.md)
-- [how to custom resume](https://github.com/hyesungoh/hyesungoh-land/tree/main/_docs/en-resume.md)
+[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
 
-## How to deploy
-
-#### [deploy with vercel (recommend)](https://github.com/hyesungoh/hyesungoh-land/tree/main/_docs/en-deploy-vercel.md)
-
-#### [deploy with github pages](https://github.com/hyesungoh/hyesungoh-land/tree/main/_docs/en-deploy-github-pages.md)
-
-## How to add more packages
-
-- scope packages
-
-```bash
-cd where-you-want
-yarn add package-name
-```
-
-- global packages
-
-```bash
-yarn add package-name -W
-```
-
-- global dev packages
-
-```bash
-yarn add package-name -DW
-```
-
-## Trouble shootings
-
-check [this wiki](https://github.com/hyesungoh/comet-land/wiki/Trouble-Shooting) please! it might be help
-
-## Use Case
-
-- [hyesungoh.xyz](https://www.hyesungoh.xyz/)
-- [seulheehan.com](https://www.seulheehan.com/)
-- [thebong.net](https://thebong.net/)
-- [coderoad.kr](https://blog.coderoad.kr)
-- [govindkumar.in](https://www.govindkumar.in/)
-- [blog.milansachani.dev](https://blog.milansachani.dev/)
-- [resume.jadecode.xyz](https://resume.jadecode.xyz/)
-
-## Inspired
-
-I inspired below blogs and resume.
-
-- [Overreacted](https://overreacted.io/)
-- [Yceffort](https://yceffort.kr/)
-- [gatsby-starter-bee](https://gatsby-starter-bee.netlify.app/)
-- [vallista-land](https://vallista.kr/)
-- [hyunseob.github.io/resume](https://hyunseob.github.io/resume/)
-
-## License
-
-MIT
